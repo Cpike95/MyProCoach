@@ -2,8 +2,8 @@ export interface UserData {
   height: number; // cm
   weight: number; // kg
   age: number;
-  gender: "male" | "female";
-  goal: "lose" | "gain" | "maintain";
+  gender: string;
+  goal: string;
   diet: "omnivore" | "vegetarian" | "vegan" | "keto";
   favoriteFoods: string[]; // e.g., ["chicken", "broccoli", "rice"]
   activityLevel: "sedentary" | "light" | "moderate" | "active" | "very active";
